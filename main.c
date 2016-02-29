@@ -53,7 +53,7 @@ void blobchecker(char ***a)
 		for (j = 0; j < sizeof(*a); j++)
 			if ((*a)[i][j] = '*')
 				found = found + 1;
-
+/* comment */
 	printf("Number of blobs = %d\n", found);
 
 }
